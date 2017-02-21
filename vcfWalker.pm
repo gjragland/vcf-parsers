@@ -240,24 +240,28 @@ sub printBimbam {
 
 
 
-chdir '/homes/gragland/shared/Rad_data/Rpom/ScottSelection';
-my @fields=('PL');
+#chdir '/homes/gragland/shared/Rad_data/Rpom/ScottSelection';
+#my @fields=('PL');
 
-my $newobj=vcfWalker->new(-vcfFile => 'snps.ScottSelection.05-400-20.small.vcf',
-			  #-fields => \@fields,
-			  -locusFile => 'testsites.txt',
-			  -sampleFile => 'sample.file',
-			  -outfile => 'out.vcf'
-			 );
+#my $newobj=vcfWalker->new(-vcfFile => 'snps.ScottSelection.05-400-20.small.vcf',
+#			  #-fields => \@fields,
+#			  -locusFile => 'testsites.txt',
+#			  -sampleFile => 'sample.file',
+#			  -outfile => 'out.vcf'
+#			 );
 
 #my @functions=('phredToLik',likToProb)
 
-my $var = $newobj->walk(#-function => \@functions,
-			-print => 'vcf',
-			-store => 'no'
+#my $var = $newobj->walk(#-function => \@functions,
+#			-print => 'vcf',
+#			-store => 'no'
 			
-		       );
+#		       );
 
 
 
-my $dum;
+#my $dum;
+
+#return true
+1;
+
